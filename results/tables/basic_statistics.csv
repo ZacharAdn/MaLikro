@@ -1,0 +1,6 @@
+Dataset,Filename,Rows,Columns,Memory_MB,File_Size_MB
+ratings,ratings.csv,5976479,3,136.79,68.79
+books,books.csv,10000,23,7.09,3.13
+book_tags,book_tags.csv,999912,3,22.89,15.89
+tags,tags.csv,34252,2,2.59,0.69
+to_read,to_read.csv,912705,2,13.93,8.97

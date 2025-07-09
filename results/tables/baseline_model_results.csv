@@ -1,0 +1,5 @@
+Metric,Value,Description
+Precision@10,0.280,Fraction of top-10 recommendations that user would rate 4+ stars
+Coverage,0.1%,Percentage of catalog that gets recommended
+Avg Popularity,4.18,Average popularity score of recommendations
+Users Evaluated,999,Number of test users used for evaluation
