@@ -24,6 +24,7 @@ wheels/
 venv/
 env/
 ENV/
+book_recommendation_venv/
 
 # IDEs and editors
 .idea/
@@ -44,8 +45,8 @@ data/
 # Model files
 *.pkl
 *.h5
-models/
-!models/.gitkeep
+models/saved_models/
+!models/saved_models/.gitkeep
 
 # Logs
 logs/
@@ -60,15 +61,30 @@ htmlcov/
 coverage.xml
 *.cover
 
-# Visualizations and results
+# Results and visualizations
 *.png
 *.jpg
 *.pdf
-visualizations/
-!visualizations/.gitkeep
 results/
 !results/.gitkeep
+!results/tables/.gitkeep
+!results/visualizations/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
 
 # Environment variables
 .env
-.env.* 
+.env.*
+
+# Model checkpoints and cache
+.model_cache/
+checkpoints/
+*.ckpt
+
+# Profiling and debugging
+*.prof
+*.stats
+debug/ 

@@ -1,4 +1,0 @@
-metric,value,description
-precision_at_10,0.1176,Fraction of recommendations that user would rate 4+ stars
-coverage,0.0027,Percentage of catalog that gets recommended
-users_evaluated,500.0,Number of test users used for evaluation

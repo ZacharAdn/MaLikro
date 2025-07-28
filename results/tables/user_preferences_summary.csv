@@ -1,7 +1,0 @@
-Metric,Count
-Strict Raters (avg < 3.0),964
-Moderate Raters (3.0-4.0),29835
-Generous Raters (avg > 4.0),22625
-Consistent Raters (std < 0.5),1990
-Moderate Variance (0.5-1.5),51260
-High Variance (std > 1.5),174
